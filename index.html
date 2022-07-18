@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jesse Ajioh - Web Developer</title>
+    <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/header.css" />
+    <!-- fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/af379dd620.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;700&family=Ubuntu:wght@700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- header section -->
+    <header>
+      <nav class="container">
+        <a href="#" class="logo_link"
+          ><img src="./assets/logo.png" alt="logo" class="logo"
+        /></a>
+        <img
+          src="./assets/menu.png"
+          alt="menu"
+          class="menu_icon"
+          id="openMenu"
+        />
+        <aside class="links">
+          <i class="fa-solid fa-close" id="closeMenu"></i>
+          <a href="" class="link active">
+            <i class="fa-solid fa-home"></i>
+            Home
+          </a>
+          <a href="" class="link">
+            <i class="fa-solid fa-tools"></i>
+            Services
+          </a>
+          <a href="" class="link">
+            <i class="fa-solid fa-book-open"></i>
+            Portfolio
+          </a>
+          <a href="" class="link">
+            <i class="fa-solid fa-book"></i>
+            Tutorials
+          </a>
+          <div class="submenu">
+            <button class="link hasSubmenu">
+              More<i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="wrapper">
+              <a href="" class="sublink">
+                <i class="fa-solid fa-user"></i>
+                About
+              </a>
+              <a href="" class="sublink">
+                <i class="fa-solid fa-message"></i>
+                Contact
+              </a>
+            </div>
+          </div>
+        </aside>
+      </nav>
+    </header>
+    <!--end header section -->
+    <!-- hero section -->
+    <section class="hero">
+      <div class="hero__dark">
+        <div class="hero__bg"></div>
+      </div>
+      <div class="container hero__top">
+        <h1 class="banner-text">
+          <span class="primary">design</span> an experience that
+          <span class="secondary">works</span> for you.
+        </h1>
+        <img src="./assets/devices.png" alt="hero image" class="hero__img" />
+      </div>
+      <div class="container hero__bottom">
+        <p class="hero__intro white">
+          Hello, my name is Jesse Ajioh. I'm a front end web devloper and UI/UX
+          designer.
+        </p>
+        <button class="hero__btn bold black">Get Quote</button>
+      </div>
+    </section>
+    <!-- end hero section -->
+    <script type="module" src="./javascript/index.js"></script>
+  </body>
+</html>
