@@ -46,9 +46,16 @@ aside {
   min-width: max-content;
   position: absolute;
   top: 0;
+  overflow-y: scroll;
   right: -50%;
   transition: var(--transition);
   z-index: 99;
+  scrollbar-width: none;
+}
+
+aside::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
 }
 
 .show {
@@ -117,6 +124,7 @@ aside {
     padding: 0;
     height: 100%;
     position: static;
+    overflow: visible;
   }
 
   .fa-close,
