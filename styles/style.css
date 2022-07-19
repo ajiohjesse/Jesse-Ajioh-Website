@@ -164,4 +164,15 @@ img {
   height: 60px;
 }
 
+/* about section */
 
+.about {
+  background-color: var(--clr-main);
+  width: 100%;
+}
+
+.about__heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
