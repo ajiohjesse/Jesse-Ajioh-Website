@@ -19,3 +19,9 @@ window.addEventListener("click", e => {
   }
 });
 //end toggle menu
+
+//dynamic year on on footer
+const yearEl = document.getElementById("year");
+const year = new Date().getFullYear();
+yearEl.textContent = year;
+//end dynamic year
