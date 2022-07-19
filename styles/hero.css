@@ -41,7 +41,7 @@
 }
 
 .hero__img {
-  width: 70%;
+  width: 100%;
 }
 
 .hero__bottom {
@@ -75,11 +75,11 @@
   .banner-text {
     color: var(--clr-white);
     text-align: left;
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 
   .hero__img {
-    width: 50%;
+    width: 60%;
   }
 
   .hero__bottom {
@@ -94,6 +94,18 @@
 
   .hero__btn {
     width: 40%;
-    margin-right: 7%;
+    margin-right: 10%;
+  }
+}
+
+@media (min-width: 900px) {
+  .banner-text {
+    font-size: 3.2rem;
+  }
+}
+
+@media (min-width: 1250px) {
+  .banner-text {
+    font-size: 4rem;
   }
 }

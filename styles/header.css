@@ -47,7 +47,7 @@ aside {
   position: absolute;
   top: 0;
   overflow-y: scroll;
-  right: -50%;
+  right: -100%;
   transition: var(--transition);
   z-index: 99;
   scrollbar-width: none;
