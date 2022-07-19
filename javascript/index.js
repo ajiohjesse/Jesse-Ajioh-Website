@@ -9,4 +9,13 @@ openMenu.addEventListener("click", () => {
 closeMenu.addEventListener("click", () => {
   aside.classList.remove("show");
 });
+window.addEventListener("click", e => {
+  if (e.target.dataset.id === "open") {
+    aside.classList.add("show");
+  } else if (e.target.dataset.id === "close") {
+    aside.classList.remove("show");
+  } else {
+    aside.classList.remove("show");
+  }
+});
 //end toggle menu

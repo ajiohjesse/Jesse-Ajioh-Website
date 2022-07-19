@@ -66,9 +66,10 @@ h2 {
 }
 
 h4 {
-  font-size: 1.25rem;
+  font-size: 1rem;
   color: var(--clr-secondary);
   font-family: "Outfit", sans-serif;
+  width: max-content;
 }
 
 h3 {
@@ -141,112 +142,26 @@ img {
 }
 
 .dark {
-  color: var(--clr-dark);
+  color: var(--clr-dark) !important;
 }
 .black {
-  color: var(--clr-black);
+  color: var(--clr-black) !important;
 }
 
 .white {
   color: var(--clr-white) !important;
 }
 
-/* =====hero section===== */
+.primary-bg {
+  background-color: var(--clr-primary) !important;
+}
+.tetiary-bg {
+  background-color: var(--clr-primary) !important;
+}
 
-.hero {
+.clear {
   width: 100%;
-  /* height: 100vh; */
-  background-color: var(--clr-main);
-  position: relative;
-  display: grid;
-  place-items: center;
+  height: 60px;
 }
 
-.hero__dark {
-  width: 100%;
-  max-width: var(--max-width);
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-}
 
-.hero__bg {
-  height: 100%;
-  width: 100%;
-  background-color: var(--clr-dark);
-  clip-path: polygon(0 50%, 35% 0, 100% 0, 100% 50%, 65% 100%, 0 100%);
-}
-
-.hero__top {
-  z-index: 1;
-  padding: 2rem 0;
-  display: flex;
-  gap: 2rem;
-  flex-direction: column-reverse;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.banner-text {
-  color: var(--clr-white);
-  text-align: center;
-}
-
-.hero__img {
-  width: 70%;
-}
-
-.hero__bottom {
-  z-index: 1;
-  display: flex;
-  gap: 2rem;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  padding-bottom: 4rem;
-}
-
-.hero__intro {
-  text-align: center;
-  width: 100%;
-}
-
-.hero__btn {
-  width: 50%;
-}
-
-@media (min-width: 700px) {
-  .hero__top {
-    flex-direction: row;
-  }
-
-  .banner-text {
-    color: var(--clr-white);
-    text-align: left;
-    font-size: 3.25rem;
-  }
-
-  .hero__img {
-    width: 50%;
-  }
-
-  .hero__bottom {
-    flex-direction: row;
-    padding-bottom: 4rem;
-  }
-
-  .hero__intro {
-    text-align: left;
-    width: 40%;
-  }
-
-  .hero__btn {
-    width: 40%;
-    margin-right: 7%;
-  }
-}
-
-@media (min-width: 1280px) {
-}

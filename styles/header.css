@@ -152,7 +152,7 @@ aside::-webkit-scrollbar {
     width: 150px;
     height: 0;
     overflow: hidden;
-    transition: all 150ms ease-in;
+    transition: all 100ms ease-in;
   }
 
   .hasSubmenu:focus-within ~ .wrapper {

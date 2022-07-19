@@ -8,6 +8,8 @@
     <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon" />
     <link rel="stylesheet" href="./styles/style.css" />
     <link rel="stylesheet" href="./styles/header.css" />
+    <link rel="stylesheet" href="./styles/hero.css" />
+    <link rel="stylesheet" href="./styles/services.css" />
     <!-- fontawesome -->
     <script
       src="https://kit.fontawesome.com/af379dd620.js"
@@ -33,14 +35,15 @@
           alt="menu"
           class="menu_icon"
           id="openMenu"
+          data-id="open"
         />
         <aside class="links">
-          <i class="fa-solid fa-close" id="closeMenu"></i>
+          <i class="fa-solid fa-close" id="closeMenu" data-id="close"></i>
           <a href="" class="link active">
             <i class="fa-solid fa-home"></i>
             Home
           </a>
-          <a href="" class="link">
+          <a href="#services" class="link">
             <i class="fa-solid fa-tools"></i>
             Services
           </a>
@@ -85,13 +88,116 @@
       </div>
       <div class="container hero__bottom">
         <p class="hero__intro white">
-          Hello, my name is Jesse Ajioh. I'm a front end web devloper and UI/UX
-          designer.
+          Hi, my name is Jesse Ajioh. I'm a
+          <span class="primary">front-end web developer</span> and UI designer
+          with experience in graphics and logo design.
         </p>
         <button class="hero__btn bold black">Get Quote</button>
       </div>
     </section>
     <!-- end hero section -->
+    <!-- services section -->
+    <section class="services">
+      <div class="clear" id="services"></div>
+      <div class="container services__heading">
+        <h2 class="dark">services</h2>
+        <h4 class="primary">what can i do for you?</h4>
+      </div>
+      <div class="container cards">
+        <!-- =======services top========= -->
+        <div class="services__top">
+          <!-- service card -->
+          <article class="card__wrapper">
+            <div class="card__bg"></div>
+            <div class="services__card">
+              <img
+                src="./assets/website.jpg"
+                alt="website"
+                class="services__img"
+              />
+              <div class="services__text">
+                <h3 class="primary">Website design</h3>
+                <p>
+                  Fully responsive SEO websites designed with
+                  <span class="tetiary">accessibility</span> and the best
+                  <span class="tetiary">user experience</span> in mind.
+                </p>
+              </div>
+            </div>
+          </article>
+          <!--end service card -->
+          <!-- service card -->
+          <article class="card__wrapper">
+            <div class="card__bg unique"></div>
+            <div class="services__card">
+              <img
+                src="./assets/mobile.jpg"
+                alt="website"
+                class="services__img"
+              />
+              <div class="services__text">
+                <h3 class="tetiary">Mobile apps</h3>
+                <p>
+                  Native
+                  <span class="primary">Android</span> and
+                  <span class="primary">iOS</span> mobile applications for an
+                  extended web experience.
+                </p>
+              </div>
+            </div>
+          </article>
+          <!--end service card -->
+        </div>
+        <!-- =======end services top========= -->
+        <!-- =======services bottom========= -->
+        <div class="services__bottom">
+          <!-- service card -->
+          <article class="card__wrapper">
+            <div class="card__bg"></div>
+            <div class="services__card">
+              <img
+                src="./assets/design.jpg"
+                alt="website"
+                class="services__img"
+              />
+              <div class="services__text">
+                <h3 class="primary">UI/UX design</h3>
+                <p>
+                  Custom user
+                  <span class="tetiary">interface templates</span> that can be
+                  used to design any <span class="tetiary">website</span> or
+                  <span class="tetiary">mobile app</span>.
+                </p>
+              </div>
+            </div>
+          </article>
+          <!--end service card -->
+          <!-- service card -->
+          <article class="card__wrapper">
+            <div class="card__bg unique"></div>
+            <div class="services__card">
+              <img
+                src="./assets/graphics.jpg"
+                alt="website"
+                class="services__img"
+              />
+              <div class="services__text">
+                <h3 class="tetiary">graphic design</h3>
+                <p>
+                  Professional <span class="primary">logo designs</span>,
+                  <span class="primary">banners</span>, and other
+                  <span class="primary">graphic designs</span>
+                  for print or digital use.
+                </p>
+              </div>
+            </div>
+          </article>
+          <!--end service card -->
+        </div>
+        <!-- =======end services bottom========= -->
+      </div>
+    </section>
+    <!-- end service section -->
     <script type="module" src="./javascript/index.js"></script>
   </body>
 </html>
