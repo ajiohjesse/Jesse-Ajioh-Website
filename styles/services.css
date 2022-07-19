@@ -3,6 +3,27 @@
 .services {
   width: 100%;
   padding-bottom: 8rem;
+  position: relative;
+}
+
+.services__dark {
+  width: 100%;
+  max-width: var(--max-width);
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: -1;
+}
+
+.services__bg {
+  height: 100%;
+  width: 100%;
+  background-color: var(--clr-primary);
+  opacity: 0.03;
+  clip-path: polygon(0 50%, 35% 0, 100% 0, 100% 50%, 65% 100%, 0 100%);
+  transform: rotateX(180deg);
 }
 
 .services__heading {

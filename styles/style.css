@@ -38,7 +38,6 @@ body {
   align-items: center;
   justify-content: center;
   padding-top: 60px;
-  padding-bottom: 6000px;
 }
 
 h1,
@@ -168,85 +167,3 @@ img {
   height: 60px;
 }
 
-/* ====contact section==== */
-.contact {
-  width: 100%;
-  background-color: var(--clr-dark);
-  padding-bottom: 6rem;
-}
-
-.contact__heading {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 4rem;
-}
-
-.contact__details {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 2rem;
-}
-
-.contact form {
-  display: flex;
-  gap: 0.5rem;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-}
-
-.contact form input {
-  border-bottom: 1px solid var(--clr-grey100);
-}
-.contact form > input,
-textarea {
-  padding: 1rem 2rem;
-  font-family: "Outfit", sans-serif;
-  width: 100%;
-  border-radius: 4px;
-}
-.contact form textarea {
-  resize: none;
-  height: 300px;
-}
-
-.contact form button {
-  width: 100%;
-  margin: 1rem auto;
-}
-
-.mapouter {
-  position: relative;
-  text-align: right;
-  height: 400px;
-  width: 100%;
-}
-
-.gmap_canvas {
-  overflow: hidden;
-  background: none !important;
-  height: 100%;
-  width: 100%;
-}
-
-@media (min-width: 700px) {
-  .contact__details {
-    flex-direction: row;
-    align-items: flex-start;
-  }
-
-  .contact form textarea {
-    height: 100%;
-  }
-  .contact form {
-    height: 400px;
-  }
-
-  .contact form button {
-    margin: 0 auto;
-    justify-self: flex-end;
-  }
-}

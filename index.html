@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./styles/hero.css" />
     <link rel="stylesheet" href="./styles/services.css" />
     <link rel="stylesheet" href="./styles/about.css" />
+    <link rel="stylesheet" href="./styles/contact.css" />
     <!-- fontawesome -->
     <script
       src="https://kit.fontawesome.com/af379dd620.js"
@@ -24,7 +25,7 @@
       rel="stylesheet"
     />
   </head>
-  <body>
+  <body id="home">
     <!-- header section -->
     <header>
       <nav class="container">
@@ -40,7 +41,7 @@
         />
         <aside class="links">
           <i class="fa-solid fa-close" id="closeMenu" data-id="close"></i>
-          <a href="" class="link active">
+          <a href="#home" class="link active">
             <i class="fa-solid fa-home"></i>
             Home
           </a>
@@ -99,6 +100,9 @@
     <!-- end hero section -->
     <!-- services section -->
     <section class="services">
+      <div class="services__dark">
+        <div class="services__bg"></div>
+      </div>
       <div class="clear" id="services"></div>
       <div class="container services__heading">
         <h2 class="dark">services</h2>
@@ -341,6 +345,16 @@
       </div>
     </section>
     <!-- end contact section -->
+    <!-- footer section -->
+    <section class="footer">
+      <div class="container footer__container">
+        <p class="muted">
+          &COPY;<span id="year">2020</span>. Designed with
+          <i class="fa-solid fa-heart tetiary"></i> by Jesse Ajioh.
+        </p>
+      </div>
+    </section>
+    <!-- end footer section -->
     <script type="module" src="./javascript/index.js"></script>
   </body>
 </html>
