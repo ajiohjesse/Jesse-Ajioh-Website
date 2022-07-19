@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./styles/header.css" />
     <link rel="stylesheet" href="./styles/hero.css" />
     <link rel="stylesheet" href="./styles/services.css" />
+    <link rel="stylesheet" href="./styles/about.css" />
     <!-- fontawesome -->
     <script
       src="https://kit.fontawesome.com/af379dd620.js"
@@ -43,7 +44,7 @@
             <i class="fa-solid fa-home"></i>
             Home
           </a>
-          <a href="./index.html#services" class="link">
+          <a href="#services" class="link">
             <i class="fa-solid fa-tools"></i>
             Services
           </a>
@@ -60,11 +61,11 @@
               More<i class="fa-solid fa-chevron-down"></i>
             </button>
             <div class="wrapper">
-              <a href="./index.html#about" class="sublink">
+              <a href="#about" class="sublink">
                 <i class="fa-solid fa-user"></i>
                 About
               </a>
-              <a href="./index.html#contact" class="sublink">
+              <a href="#contact" class="sublink">
                 <i class="fa-solid fa-message"></i>
                 Contact
               </a>
@@ -116,7 +117,7 @@
                 class="services__img"
               />
               <div class="services__text">
-                <h3 class="dark">Website design</h3>
+                <h3 class="primary">Website design</h3>
                 <p>
                   Fully responsive SEO websites designed with
                   <span class="tetiary">accessibility</span> and the best
@@ -136,7 +137,7 @@
                 class="services__img"
               />
               <div class="services__text">
-                <h3 class="dark">Mobile apps</h3>
+                <h3 class="tetiary">Mobile apps</h3>
                 <p>
                   Native
                   <span class="primary">Android</span> and
@@ -161,7 +162,7 @@
                 class="services__img"
               />
               <div class="services__text">
-                <h3 class="dark">UI/UX design</h3>
+                <h3 class="primary">UI/UX design</h3>
                 <p>
                   Custom
                   <span class="tetiary">user interface</span> templates that can
@@ -182,7 +183,7 @@
                 class="services__img"
               />
               <div class="services__text">
-                <h3 class="dark">graphic design</h3>
+                <h3 class="tetiary">graphic design</h3>
                 <p>
                   Professional <span class="primary">logo designs</span>,
                   <span class="primary">banners</span>, and other
@@ -303,6 +304,43 @@
       </div>
     </section>
     <!-- end about section -->
+    <!-- contact section -->
+    <section class="contact">
+      <div class="clear" id="contact"></div>
+      <div class="container contact__heading">
+        <h2 class="white">contact</h2>
+        <h4 class="secondary">Get in touch</h4>
+      </div>
+      <div class="container contact__details">
+        <form class="contact__form">
+          <input type="text" name="name" placeholder="Name" required />
+          <input type="email" name="email" placeholder="Email" required />
+          <textarea
+            name="message"
+            cols="30"
+            rows="10"
+            placeholder="Message"
+            required
+          ></textarea>
+          <button type="submit">Send</button>
+        </form>
+        <div class="mapouter">
+          <div class="gmap_canvas">
+            <iframe
+              width="100%"
+              height="400"
+              id="gmap_canvas"
+              src="https://maps.google.com/maps?q=makurdi%20benue%20state%20nigeria&t=&z=13&ie=UTF8&iwloc=&output=embed"
+              frameborder="0"
+              scrolling="no"
+              marginheight="0"
+              marginwidth="0"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end contact section -->
     <script type="module" src="./javascript/index.js"></script>
   </body>
 </html>
