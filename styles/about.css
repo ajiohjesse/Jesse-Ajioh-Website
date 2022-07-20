@@ -46,8 +46,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
-  font-size: 3rem;
+  gap: 1.5rem;
+  font-size: 2rem;
 }
 
 .social .fa-facebook {

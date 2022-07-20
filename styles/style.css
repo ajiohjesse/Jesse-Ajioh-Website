@@ -155,6 +155,12 @@ img {
   color: var(--clr-grey200) !important;
 }
 
+.small {
+  font-size: 0.75rem;
+  text-align: center;
+  text-transform: capitalize;
+}
+
 .primary-bg {
   background-color: var(--clr-primary) !important;
 }
