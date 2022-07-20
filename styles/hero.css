@@ -2,6 +2,7 @@
 
 .hero {
   width: 100%;
+  min-height: 100vh;
   background-color: var(--clr-main);
   position: relative;
   display: flex;
@@ -28,7 +29,7 @@
 
 .hero__top {
   z-index: 1;
-  padding: 2rem;
+  padding-bottom: 1rem;
   display: flex;
   gap: 0;
   flex-direction: column-reverse;
