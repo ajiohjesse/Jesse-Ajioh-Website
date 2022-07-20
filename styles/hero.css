@@ -6,8 +6,9 @@
   min-height: fit-content;
   background-color: var(--clr-main);
   position: relative;
-  display: grid;
-  place-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 .hero__dark {
