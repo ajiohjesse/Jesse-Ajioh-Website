@@ -27,7 +27,7 @@
 
 .hero__top {
   z-index: 1;
-  padding-bottom: 1rem;
+  padding: 2rem;
   display: flex;
   gap: 0;
   flex-direction: column-reverse;
