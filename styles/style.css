@@ -183,6 +183,11 @@ img {
   gap: 3rem;
 }
 
+.info__top {
+  display: flex;
+  flex-direction: column;
+}
+
 .info__top h2 {
   text-align: left;
 }
@@ -192,7 +197,12 @@ img {
 }
 
 .info__img {
- height: 100%;
+  height: 100%;
+}
+
+.info__btn {
+  width: 70%;
+  margin: 2rem 0 auto;
 }
 
 @media (min-width: 1024px) {
@@ -201,20 +211,21 @@ img {
     grid-template-columns: 1fr 1fr;
     gap: 3rem;
   }
-  
-  .info__top h2 {
-    text-align: left;
-  }
-  
+
   .info__top h3 {
     margin-bottom: 2rem;
   }
-  
+
   .info__img {
-   height: 100%;
+    height: 100%;
   }
 
   .info {
     padding: 4rem 0;
+  }
+
+  .info__btn {
+    width: 70%;
+    margin: 2rem 0 0;
   }
 }
