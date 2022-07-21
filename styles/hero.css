@@ -8,7 +8,6 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  z-index: -2;
 }
 
 .hero__dark {
@@ -19,7 +18,6 @@
   top: 0;
   left: 50%;
   transform: translateX(-50%);
-  z-index: -1;
 }
 
 .hero__bg {
