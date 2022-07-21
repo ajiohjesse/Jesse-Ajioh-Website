@@ -21,7 +21,7 @@
   height: 100%;
   width: 100%;
   background-color: var(--clr-primary);
-  opacity: 0.03;
+  opacity: 0.05;
   clip-path: polygon(0 50%, 35% 0, 100% 0, 100% 50%, 65% 100%, 0 100%);
   transform: rotateX(180deg);
 }
@@ -38,11 +38,11 @@
   margin-top: 4rem;
   display: flex;
   flex-direction: column;
-  gap: 6rem;
+  gap: 4rem;
 }
 
 .services__bottom {
-  margin-top: 6rem;
+  margin-top: 4rem;
 }
 
 .card__wrapper {
@@ -56,10 +56,10 @@
   width: 100%;
   background-color: var(--clr-tetiary);
   /* background-image: linear-gradient(var(--clr-tetiary), rgba(0, 0, 0, 0)); */
-  border-radius: 8px 0 0 8px;
+  border-radius: 3px 0 0 3px;
   position: absolute;
-  top: -1rem;
-  bottom: -1rem;
+  top: -0.3rem;
+  bottom: -0.3rem;
   left: -5%;
   /* left: -1rem; */
   z-index: -1;
@@ -69,9 +69,9 @@
 .card__bg.unique {
   background-color: var(--clr-primary);
   /* background-image: linear-gradient(rgba(0, 0, 0, 0), var(--clr-primary)); */
-  border-radius: 0 8px 8px 0;
-  top: -1rem;
-  bottom: -1rem;
+  border-radius: 0 3px 3px 0;
+  top: -0.3rem;
+  bottom: -0.3rem;
   left: 5%;
   /* left: 4.5rem; */
 }

@@ -172,3 +172,49 @@ img {
   width: 100%;
   height: 60px;
 }
+
+.info {
+  padding: 0;
+}
+
+.info__container {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 3rem;
+}
+
+.info__top h2 {
+  text-align: left;
+}
+
+.info__top h3 {
+  margin-bottom: 2rem;
+}
+
+.info__img {
+ height: 100%;
+}
+
+@media (min-width: 1024px) {
+  .info__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+  }
+  
+  .info__top h2 {
+    text-align: left;
+  }
+  
+  .info__top h3 {
+    margin-bottom: 2rem;
+  }
+  
+  .info__img {
+   height: 100%;
+  }
+
+  .info {
+    padding: 4rem 0;
+  }
+}
