@@ -202,7 +202,8 @@ img {
 
 .info__btn {
   width: 70%;
-  margin: 2rem 0 auto;
+  margin: 2rem auto;
+  margin-bottom: 0;
 }
 
 @media (min-width: 1024px) {
