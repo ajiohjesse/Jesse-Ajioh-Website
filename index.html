@@ -78,9 +78,9 @@
     <!--end header section -->
     <!-- hero section -->
     <section class="hero">
-      <div class="hero__dark">
+      <!-- <div class="hero__dark">
         <div class="hero__bg"></div>
-      </div>
+      </div> -->
       <div class="container hero__top">
         <h1 class="banner-text">
           <span class="primary">design</span> an experience that
@@ -102,6 +102,11 @@
     <section class="info">
       <div class="clear"></div>
       <div class="container info__container">
+        <!-- info bottom -->
+        <div class="info__bottom">
+          <img src="./assets/website.jpg" alt="computer" class="info__img" />
+        </div>
+        <!-- end info bottom -->
         <!-- info top -->
         <div class="info__top">
           <h3 class="primary">
@@ -112,30 +117,23 @@
             smaller place. Any kind of information is easily available and at
             our fingertips. The world of the internet is amazing and it
             continues to transform our lives, the way we communicate, the way we
-            receive and share information and live a quality life.<br /><br />Take
-            advantage of these opportunities and engage more people via a
+            receive and share information and live a quality life.<br /><br />
+            Take advantage of these opportunities and engage more people via a
             business or corporate website.
           </p>
-          <button class="info__btn bold white">Get Started</button>
+          <button class="info__btn">Request a custom website</button>
+          <!-- <button class="info__btn bold white">Get Started</button> -->
         </div>
         <!-- end info top -->
-        <!-- info bottom -->
-        <div class="info__bottom">
-          <img src="./assets/computer2.jpg" alt="computer" class="info__img" />
-        </div>
-        <!-- end info bottom -->
       </div>
       <div class="clear"></div>
     </section>
     <!-- end info section -->
     <!-- services section -->
     <section class="services">
-      <div class="services__dark">
-        <div class="services__bg"></div>
-      </div>
       <div class="clear" id="services"></div>
       <div class="container services__heading">
-        <h2 class="dark">services</h2>
+        <h2 class="white">services</h2>
         <h4 class="primary">what can i do for you?</h4>
       </div>
       <div class="container cards">
@@ -151,7 +149,7 @@
                 class="services__img"
               />
               <div class="services__text">
-                <h3 class="primary">Website design</h3>
+                <h3 class="dark">Website design</h3>
                 <p>
                   Fully responsive SEO websites designed with accessibility and
                   the best user experience in mind.
@@ -170,7 +168,7 @@
                 class="services__img"
               />
               <div class="services__text">
-                <h3 class="tetiary">Mobile apps</h3>
+                <h3 class="dark">Mobile apps</h3>
                 <p>
                   Native
                   <span class="primary">Android</span> and
@@ -195,7 +193,7 @@
                 class="services__img"
               />
               <div class="services__text">
-                <h3 class="primary">UI/UX design</h3>
+                <h3 class="dark">UI/UX design</h3>
                 <p>
                   Custom user interface templates that can be used to design any
                   website or mobile app.
@@ -214,7 +212,7 @@
                 class="services__img"
               />
               <div class="services__text">
-                <h3 class="tetiary">graphic design</h3>
+                <h3 class="dark">graphic design</h3>
                 <p>
                   Professional logo designs, banners, and other graphic designs
                   for print or digital use.
@@ -232,8 +230,8 @@
     <section class="about">
       <div class="clear" id="about"></div>
       <div class="container about__heading">
-        <h2 class="dark">about</h2>
-        <h4 class="primary">Get to know me</h4>
+        <h2 class="secondary">about</h2>
+        <h4 class="white">Get to know me</h4>
       </div>
       <div class="container about__card">
         <img src="./assets/profile.jpg" alt="profile" class="about__img" />
@@ -345,9 +343,6 @@
     <!-- contact section -->
     <section class="contact">
       <div class="clear" id="contact"></div>
-      <div class="hero__dark">
-        <div class="hero__bg"></div>
-      </div>
       <div class="container contact__heading">
         <h2 class="white">contact</h2>
         <h4 class="secondary">Get in touch</h4>
@@ -357,7 +352,6 @@
           <form class="contact__form" name="contact" netlify>
             <input type="text" name="name" placeholder="Name:" required />
             <input type="email" name="email" placeholder="Email:" required />
-            <input type="text" name="subject" placeholder="subject:" required />
             <textarea
               name="message"
               cols="30"

@@ -4,26 +4,11 @@
   width: 100%;
   padding-bottom: 4em;
   position: relative;
-}
-
-.services__dark {
-  width: 100%;
-  max-width: var(--max-width);
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: -1;
-}
-
-.services__bg {
-  height: 100%;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.349);
-  opacity: 0.05;
-  clip-path: polygon(0 50%, 35% 0, 100% 0, 100% 50%, 65% 100%, 0 100%);
-  transform: rotateX(180deg);
+  background-color: var(--clr-alt);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.596), rgba(0, 0, 0, 0.705)),
+    url(../assets/blue-bg2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .services__heading {
@@ -55,30 +40,25 @@
 .card__bg {
   width: 100%;
   background-color: var(--clr-tetiary);
-  /* background-image: linear-gradient(var(--clr-tetiary), rgba(0, 0, 0, 0)); */
-  border-radius: 3px 0 0 3px;
   position: absolute;
   top: -0.3rem;
   bottom: -0.3rem;
   left: -5%;
-  /* left: -1rem; */
   z-index: -1;
-  /* opacity: 0.15; */
 }
 
 .card__bg.unique {
   background-color: var(--clr-primary);
-  /* background-image: linear-gradient(rgba(0, 0, 0, 0), var(--clr-primary)); */
   border-radius: 0 3px 3px 0;
   top: -0.3rem;
   bottom: -0.3rem;
   left: 5%;
-  /* left: 4.5rem; */
 }
 
 .services__card {
   width: 100%;
   height: 100%;
+  padding: 0.5rem;
   background-color: var(--clr-white);
   border-radius: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.26);
@@ -96,12 +76,14 @@
   border-radius: 20px 20px 0 0;
 }
 
-.services__text {
+/* .services__text {
   padding: 0 1rem 1rem;
-}
+} */
 
 .services__text h3 {
   margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  color: var(--clr-tetiary) !important;
 }
 .services__text p {
   font-size: 0.8rem;
@@ -124,7 +106,9 @@
     display: flex;
     justify-content: center;
     align-items: stretch;
-    gap: 4rem;
+    gap: 8.5rem;
+    padding-top: 2rem;
+    padding-bottom: 6rem;
   }
 
   .card__wrapper {
@@ -140,9 +124,27 @@
     justify-content: space-between;
     align-items: stretch;
     flex: 1;
+    transform: scale(1.2);
   }
 
   .services__bottom {
     margin-top: 4rem;
+  }
+
+  .services__card {
+    border-radius: 4px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.315);
+  }
+
+  .services__card .services__img {
+    border-radius: 4px 4px 0 0;
+  }
+
+  .services__card:hover {
+    transform: scale(1.1);
+  }
+
+  .card__bg {
+    display: none;
   }
 }

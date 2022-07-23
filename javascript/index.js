@@ -25,3 +25,15 @@ const yearEl = document.getElementById("year");
 const year = new Date().getFullYear();
 yearEl.textContent = year;
 //end dynamic year
+
+//add header background on scroll
+const header = document.querySelector("header");
+
+window.addEventListener("scroll", () => {
+  if (window.scrollY > 20) {
+    header.classList.add("header-bg");
+  } else {
+    header.classList.remove("header-bg");
+  }
+});
+//end add header background on scroll

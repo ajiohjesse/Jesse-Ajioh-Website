@@ -4,6 +4,10 @@
   background-color: var(--clr-main);
   padding-bottom: 2rem;
   position: relative;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.596), rgba(0, 0, 0, 0.705)),
+    url(../assets/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .contact__heading {
@@ -12,6 +16,7 @@
   align-items: center;
   justify-content: center;
   margin-bottom: 4rem;
+  position: relative;
 }
 
 .contact__details {
