@@ -5,7 +5,7 @@
   width: 100%;
   padding-bottom: 3rem;
   background-image: 
-    url(../assets/about1.jpg);
+    url(../assets/white-bg3.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -23,7 +23,7 @@
   margin-top: 6rem;
   border-radius: 10px;
   position: relative;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.288);
+  box-shadow: 0 5px 50px rgba(0, 0, 0, 0.664);
 }
 
 .about__img {
@@ -161,7 +161,6 @@
   }
 
   .about__img {
-    border-radius: 50%;
     width: 180px;
     position: static;
     top: 0;
@@ -196,6 +195,7 @@
   .social {
     gap: 2rem;
     font-size: 2.6rem;
+    align-self: flex-start;
   }
 
   .language__cards__wrapper {

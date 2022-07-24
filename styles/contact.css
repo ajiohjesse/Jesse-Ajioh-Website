@@ -48,14 +48,14 @@
 }
 .contact form > input,
 textarea {
-  padding: 1rem;
+  padding:0.5rem 1rem;
   font-family: "Outfit", sans-serif;
   width: 100%;
   border-radius: 4px;
 }
 .contact form textarea {
   resize: none;
-  height: 300px;
+  height: 200px;
 }
 
 .contact form button {
@@ -66,7 +66,7 @@ textarea {
 .mapouter {
   position: relative;
   text-align: right;
-  height: 400px;
+  height: 300px;
   width: 100%;
 }
 
@@ -87,7 +87,7 @@ textarea {
     height: 100%;
   }
   .contact form {
-    height: 400px;
+    height: 300px;
   }
 
   .contact form button {

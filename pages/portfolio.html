@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jesse Ajioh - Portfolio</title>
+    <link
+      rel="shortcut icon"
+      href="../assets/favicon.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="../styles/style.css" />
+    <link rel="stylesheet" href="../styles/header.css" />
+    <link rel="stylesheet" href="../styles/hero.css" />
+    <link rel="stylesheet" href="../styles/contact.css" />
+    <!-- fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/af379dd620.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;700&family=Ubuntu:wght@700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body id="home">
+    <!-- header section -->
+    <header>
+      <nav class="container">
+        <a href="#" class="logo_link"
+          ><img src="../assets/logo.png" alt="logo" class="logo"
+        /></a>
+        <img
+          src="../assets/menu.png"
+          alt="menu"
+          class="menu_icon"
+          id="openMenu"
+          data-id="open"
+        />
+        <aside class="links">
+          <i class="fa-solid fa-close" id="closeMenu" data-id="close"></i>
+          <a href="../index.html#home" class="link">
+            <i class="fa-solid fa-home"></i>
+            Home
+          </a>
+          <a href="../index.html#services" class="link">
+            <i class="fa-solid fa-tools"></i>
+            Services
+          </a>
+          <a href="" class="link active">
+            <i class="fa-solid fa-book-open"></i>
+            Portfolio
+          </a>
+          <a href="" class="link">
+            <i class="fa-solid fa-book"></i>
+            Tutorials
+          </a>
+          <div class="submenu">
+            <button class="link hasSubmenu">
+              More<i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="wrapper">
+              <a href="../index.html#about" class="sublink">
+                <i class="fa-solid fa-user"></i>
+                About
+              </a>
+              <a href="#contact" class="sublink">
+                <i class="fa-solid fa-message"></i>
+                Contact
+              </a>
+            </div>
+          </div>
+        </aside>
+      </nav>
+    </header>
+    <!--end header section -->
+    <!-- hero section -->
+    <section class="hero">
+      <!-- <div class="hero__dark">
+        <div class="hero__bg"></div>
+      </div> -->
+      <div class="container hero__top">
+        <h1 class="banner-text">
+          <span class="primary">Explore</span> some of the
+          <span class="secondary">projects</span> I've worked on.
+        </h1>
+        <img src="../assets/devices.png" alt="hero image" class="hero__img" />
+      </div>
+    </section>
+    <!-- end hero section -->
+    <!-- portfolio section section -->
+    <section class="portfolio">
+      <div class="container portfolio__websites">
+        <div class="container portfolio__heading">
+          <h2 class="dark">Website Templates</h2>
+          <h4 class="primary">Responsive Designs</h4>
+        </div>
+        <article class="website__template">
+          <div class="portfolio__img__wrapper">
+            <img
+              src="../assets/entero.png"
+              alt="website template"
+              class="website__template__img"
+            />
+          </div>
+          <div class="website__template__text">
+            <h3>Entero</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
+              incidunt accusamus voluptate suscipit qui ad sapiente maiores
+              magnam officiis eveniet. Lorem ipsum dolor sit amet consectetur,
+              adipisicing elit. Doloribus, alias? Nihil beatae, eaque error hic
+              fugiat odit mollitia eos molestiae?
+            </p>
+            <div class="btn__Wrapper">
+              <button>Live Demo</button>
+              <button>GitHub Repo</button>
+            </div>
+          </div>
+        </article>
+      </div>
+      <div class="container portfolio__games"></div>
+    </section>
+    <!-- end portfolio section section -->
+    <!-- contact section -->
+    <section class="contact">
+      <div class="clear" id="contact"></div>
+      <div class="container contact__heading">
+        <h2 class="white">contact</h2>
+        <h4 class="secondary">Get in touch</h4>
+      </div>
+      <div class="container contact__details">
+        <div class="form">
+          <form class="contact__form" name="contact" netlify>
+            <input type="text" name="name" placeholder="Name:" required />
+            <input type="email" name="email" placeholder="Email:" required />
+            <textarea
+              name="message"
+              cols="30"
+              rows="10"
+              placeholder="Message:"
+              required
+            ></textarea>
+            <button type="submit">Send</button>
+          </form>
+        </div>
+        <div class="mapouter">
+          <div class="gmap_canvas">
+            <iframe
+              width="100%"
+              height="400"
+              id="gmap_canvas"
+              src="https://maps.google.com/maps?q=makurdi%20benue%20state%20nigeria&t=&z=13&ie=UTF8&iwloc=&output=embed"
+              frameborder="0"
+              scrolling="no"
+              marginheight="0"
+              marginwidth="0"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end contact section -->
+    <!-- footer section -->
+    <section class="footer">
+      <div class="container footer__container">
+        <p class="muted">
+          &COPY;<span id="year"></span>. Designed with
+          <i class="fa-solid fa-heart tetiary"></i> by Jesse Ajioh.
+        </p>
+      </div>
+    </section>
+    <!-- end footer section -->
+    <script type="module" src="../javascript/index.js"></script>
+  </body>
+</html>
