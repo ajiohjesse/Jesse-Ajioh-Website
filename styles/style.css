@@ -199,7 +199,7 @@ img {
 .website__template__img {
   height: 100%;
   border-radius: 5px;
-  object-position: top;
+  object-position: 0 0;
 }
 
 .website__template__text {
