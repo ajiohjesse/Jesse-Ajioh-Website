@@ -212,6 +212,7 @@ img {
 .website__template__text .btn__Wrapper {
   margin-top: 2rem;
   display: flex;
+  flex-wrap: wrap;
   gap: 1rem;
 }
 .website__template__text .btn__Wrapper button {
@@ -224,4 +225,18 @@ img {
 .website__template__text .btn__Wrapper button:hover {
   background-color: var(--clr-primary);
   color: var(--clr-white);
+}
+
+.portfolio__websites {
+  width: 100%;
+}
+
+.portfolio__article {
+  display: grid;
+  gap: 2rem;
+}
+
+.loading-icon {
+  width: 200px;
+  place-self: center;
 }
